@@ -1,0 +1,105 @@
+
+body {
+    font-family: "Open Sans",Helvetica,Roboto,Arial,sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#site {
+    width: 100%;
+}
+
+#header {
+    border-top: 5px solid #2176d2;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(161,161,161,0.5);
+    padding: 3px 0;
+}
+
+#logo-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    width: 190px;
+}
+
+#nav-wrap {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#site-logo {
+    width: 170px;
+    height: auto;
+}
+
+#main-nav li {
+    display: inline-block;
+    width: 100px;
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+}
+
+.center-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-half {
+    width: 50%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #0f4d90;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+figcaption {
+    width: 50%;
+    background-color: #d8d7d7;
+    color: #686767;
+    padding: 2px 3px;
+}
+
+input[type=text], textarea {
+    border: 1px solid #ccc;
+}
+
+.form-left {
+    display: inline-block;
+}
+.form-right {
+    display: inline-block;
+}
+
+#progressbar-wrap {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#progressbar {
+    width: 70%;
+    height: 100%;
+    background-color: #0f4d90;
+}
+
+#percentage {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+}
+
+i {
+    font-size: 9px;
+}
