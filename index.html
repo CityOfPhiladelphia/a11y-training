@@ -2,16 +2,17 @@
 <html class="no-js" lang="">
 <head>
 	<meta charset="utf-8">
-	<title>Home</title>
+	<title>A11Y - Home</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/a11y.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-		<a class="skip-main" href="#main" tabindex="1">Skip to main content</a>
+		<a class="skip-main" href="#main">Skip to main content</a>
 		<div id="header">
 				<div class="center-content">
 						<div id="logo-wrap">
@@ -47,7 +48,7 @@
 						<li>WAI guidelines and resources as the international standard for web accessibility</li>
 						<li>How to get involved and where to get more information about web accessibility</li>
 					</ul>
-					<i>Click <a href="https://www.w3.org/WAI/teach-advocate/accessibility-training/topics/#introduction" target="_blank">here</a> for text source.</i>
+					<p>Click <a href="https://www.w3.org/WAI/teach-advocate/accessibility-training/topics/#introduction" target="_blank">here</a> to learn more about it.</p>
 				</div>
 				<h4>Course completion:</h4>
 				<div id="progressbar-wrap">
@@ -62,17 +63,18 @@
 				<div class="center-content">
 					<h1>Have questions?</h1>
 					<form>
+							<p class="small-text">* denotes required fields</p>
 							<div class="form-left">
-								First name: <br>
+								First name<sup>*</sup>: <br>
 								<input type="text" tabindex="2">
 							</div>
 							<div class="form-right">
-								Last name: <br>
+								Last name<sup>*</sup> <br>
 								<input type="text">
 							</div>
 							<div>
 								<br>
-								<label>Comments:</label><br>
+								<label>Comments<sup>*</sup>:</label><br>
 								<textarea cols="30" rows="10"></textarea><br>
 							</div>
 							<input type="submit">
